@@ -1,13 +1,13 @@
-name: Spotify Datavis API CI
+name: spotify-data-viz-api-ci
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
-  notify-agnel:
+  notify-ag-nel:
     runs-on: ubuntu-latest
     steps:
       - name: Send email notification
